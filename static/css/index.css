@@ -136,12 +136,12 @@ nav{
 
 .project-card .overlay{
     opacity: 0;
-    left: -10vh;
+    top: -5vh;
 }
 
 .project-card:hover .overlay{
     opacity: 1;
-    left: 0;
+    top: 0;
     transition: all 1s ease-in-out;
 }
 
