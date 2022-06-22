@@ -127,11 +127,16 @@ nav{
 
 .project-card{
     position: relative;
+    display: none;
+}
+
+.project-card{
+    display: grid;
 }
 
 .project-card .overlay{
     opacity: 0;
-    left: -20vh;
+    left: -10vh;
 }
 
 .project-card:hover .overlay{
