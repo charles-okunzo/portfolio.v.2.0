@@ -19,6 +19,9 @@
     {% endblock %}
 </head>
 <body>
+    {% block navbar %}
+    {% include 'portfolio_app/navbar.html' %}
+    {% endblock %}
 
     {% if messages %}
         {% for message in messages %}
