@@ -51,3 +51,21 @@ body{
     display: grid;
     place-items: center;
 }
+.banner-pic{
+    border: 2px solid #FEFCFB;
+    animation: wave 4s infinite ease-in-out alternate;
+    background-color: #FEFCFB;
+    background-image: url(../images/DSC_0294_2update2-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+}
+
+@keyframes wave{
+    0%, 100% {
+        border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
+    }
+    50%{
+        border-radius: 26% 74% 51% 49% / 22% 53% 47% 78%;
+    }
+}
