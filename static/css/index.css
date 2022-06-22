@@ -54,7 +54,7 @@ body{
 .banner-pic{
     border: 2px solid #FEFCFB;
     animation: wave 4s infinite ease-in-out alternate;
-    background-color: #FEFCFB;
+    background-color: #ececec;
     background-image: url(../images/DSC_0294_2update2-removebg-preview.png);
     background-repeat: no-repeat;
     height: 70%;
@@ -68,4 +68,13 @@ body{
     50%{
         border-radius: 26% 74% 51% 49% / 22% 53% 47% 78%;
     }
+}
+
+.backgrd-light{
+    background-color: #ececec;
+}
+
+.btn-primary{
+    background-color: #0A1128;
+    color: #FEFCFB;
 }
