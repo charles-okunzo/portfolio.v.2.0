@@ -156,3 +156,9 @@ nav{
 .carousel-icon{
     background-color: #0A1128;
 }
+
+.form-control, .form-control:focus{
+    background-color: #0A1128;
+    color: #ececec;
+    border: 1px solid #FFD54C;
+}
