@@ -42,7 +42,7 @@ body{
     color: #FFD54C;
 }
 
-.btn-outline-warning:hover{
+.btn-outline-warning:hover, .tester{
     background-color: #FFD54C;
     color: #0A1128;
 }
@@ -143,4 +143,16 @@ nav{
     opacity: 1;
     left: 0;
     transition: all 1s ease-in-out;
+}
+
+.quote-icon{
+    font-size: 10vh;
+}
+
+.testy-card{
+    border: 2px solid #FFD54C;
+}
+
+.carousel-icon{
+    background-color: #0A1128;
 }
