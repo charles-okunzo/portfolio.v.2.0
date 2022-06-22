@@ -97,3 +97,14 @@ nav{
     background-color: #0A1128;
     border: 1px solid #FFD54C;
 }
+
+.card:hover{
+    background-color: #FFD54C;
+    color: #0A1128 !important;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.card:hover h3{
+    color: #0A1128;
+    transition: all 1s ease-in-out;
+}
