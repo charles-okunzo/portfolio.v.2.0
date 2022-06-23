@@ -10,5 +10,14 @@ def home(request):
 
 def projects(request):
     title = 'Charles P. Okunzo | My Projects'
-    context = {}
+    context = {
+        'title':title
+    }
+    return render(request, 'portfolio_app/projects.html', context)
+
+def hire_me(request):
+    title = 'Charles P. Okunzo | Hire Me'
+    context = {
+        'title':title
+    }
     return render(request, 'portfolio_app/projects.html', context)
