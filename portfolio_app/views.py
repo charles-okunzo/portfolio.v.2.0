@@ -7,3 +7,8 @@ def home(request):
         'title':title
     }
     return render(request, 'portfolio_app/index.html', context)
+
+def projects(request):
+    title = 'Charles P. Okunzo | My Projects'
+    context = {}
+    return render(request, 'portfolio_app/projects.html', context)
