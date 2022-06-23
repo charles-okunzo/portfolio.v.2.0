@@ -1,0 +1,39 @@
+{% extends 'portfolio_app/base.html' %}
+
+
+{% block content %}
+<div class="backgrd-light">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <h6 class="mt-5 text">Get In <span>Touch</span></h6>
+                <span class="fw-bold text font-monospace mb-5 h1">Hire Me</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mx-auto my-3">
+                <form action="https://formspree.io/f/xpzbergq" method="post">
+                    <div class="mb-3 form-group">
+                        <label for="name" class="form-label text fw-bold">Name:</label>
+                        <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp" required placeholder="Your name...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text fw-bold">E-mail:</label>
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="Your email...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="budget" class="form-label text fw-bold">Budget(K.sh)</label>
+                        <input type="number" name="budget" class="form-control" id="budget" aria-describedby="emailHelp" required placeholder="Your budget e.g. Ksh.100,000">
+                    </div>
+                    <div class="mb-3">
+                        <label for="requirements" class="form-label text fw-bold">Please detail your requirements</label>
+                        <textarea name="message" name="requirements" id="requirements" style="width: 100%;" rows="8" class="form-control" required placeholder="Your description..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning px-3">SUBMIT</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

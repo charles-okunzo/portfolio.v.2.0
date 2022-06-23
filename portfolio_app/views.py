@@ -20,4 +20,4 @@ def hire_me(request):
     context = {
         'title':title
     }
-    return render(request, 'portfolio_app/projects.html', context)
+    return render(request, 'portfolio_app/hire_me.html', context)

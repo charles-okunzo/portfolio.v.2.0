@@ -44,19 +44,21 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-5 my-4 ms-md-3">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your name...">
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email...">
-                </div>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject">
-                </div>
-                <div class="mb-3">
-                    <textarea name="message" id="" style="width: 100%;" rows="8" class="form-control" placeholder="Your message..."></textarea>
-                </div>
-                <button class="btn btn-warning px-3">SEND</button>
+                <form action="https://formspree.io/f/xgedbyjv" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="name" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Your name...">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Your email...">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="subject" aria-describedby="emailHelp" required placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" id="" style="width: 100%;" rows="8" name="message" class="form-control" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning px-3">SEND</button>
+                </form>
             </div>
     
             <div class="col-lg-5 ms-md-4">
