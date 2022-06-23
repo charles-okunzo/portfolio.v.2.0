@@ -195,3 +195,12 @@ nav{
         display: none;
     }
 }
+
+
+.hire-me input, .hire-me textarea{
+    background-color: #1c2955;
+}
+
+.get-s{
+    color: #e0ad04;
+}
