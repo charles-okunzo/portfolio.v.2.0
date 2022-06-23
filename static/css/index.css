@@ -55,7 +55,7 @@ body{
     border: 2px solid #FEFCFB;
     animation: wave 4s infinite ease-in-out alternate;
     background-color: #ececec;
-    background-image: url(../images/DSC_0294_2update2-removebg-preview.png);
+    background-image: url(../images/DSC_1056-removebg-preview\ \(1\).png);
     background-repeat: no-repeat;
     height: 70%;
     width: 100%;
@@ -107,6 +107,10 @@ nav{
 .card:hover h3{
     color: #0A1128;
     transition: all 1s ease-in-out;
+}
+
+.about-me-img{
+    border-right: #0A1128;
 }
 
 .projects{
@@ -183,5 +187,11 @@ nav{
     .contact-me{
         float: left;
         margin-left: 2vh;
+    }
+    .projects{
+        width: 95vw;
+    }
+    .banner-pic-div{
+        display: none;
     }
 }
