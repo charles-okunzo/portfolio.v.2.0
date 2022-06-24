@@ -196,12 +196,9 @@ nav{
     .projects{
         width: 95vw;
     }
-    .about-me-img{
+    .banner-pic-div{
         display: none;
     }
-    /* *{
-        overflow-x: hidden;
-    } */
 }
 
 
