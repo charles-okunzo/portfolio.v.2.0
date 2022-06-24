@@ -199,9 +199,9 @@ nav{
     .banner-pic-div{
         display: none;
     }
-    *{
+    /* *{
         overflow-x: hidden;
-    }
+    } */
 }
 
 
