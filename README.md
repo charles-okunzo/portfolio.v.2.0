@@ -24,7 +24,7 @@ This application documents my professional portfolio in software development.
 ```
 Landing Page
 ```
-<img src="static/images/Screenshot from 2022-06-20 00-10-58.png">
+<img src="static/images/Landing-page-Readme.png">
 
 
 [Go Back to the top](#portfoliov20)
